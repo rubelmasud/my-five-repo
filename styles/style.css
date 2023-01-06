@@ -1,38 +1,194 @@
-
 *{
-    /* margin: 0; */
-    font-family: 'Inter';
+    font-family: 'inter';
 }
-.bg-img{
- position: absolute;
- width: 100%;
- height: 100vh;
- background-image: url("../images/donation13.jpg");
- background-size: cover;
- 
+.header-container{
+    width: 100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/donation13.jpg);
 }
-.head{
+.header-contant{
+    position: absolute;
     text-align: center;
-    align-items: center;
-    margin: 175px 310px;
+    margin: 175px 307px;
 }
-.title{
+.header-head{
+    color: white;
     font-weight: 700px;
     font-size: 65px;
-    color: white;
 }
-.banner{
+.header-banner{
+    color: white;
     font-size: 18px;
-    margin-top: -40px;
-    color: white;
+    margin-top: -35px;
 }
-.btn-praymari{
+.btn{
     width: 150px;
     height: 60px;
-    background-color: #ff5959;
+    background: #FF5959;
     border-radius: 5px;
     border: none;
+    color: wheat;
 }
 span{
     font-size: 20px;
+}
+/* header end */
+.main-container{
+    position: relative;
+   text-align: center;
+    margin-top: 110px;
+}
+.data-banner{
+    text-align: center;
+    margin-top: 100px;
+    color: #B3B3B3;
+}
+.btn-2{
+    width: 150px;
+    height: 60px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: none;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px ;
+    color: wheat;
+}
+.data-box{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    margin: 30px;
+    font-size: 29px;
+    background-color: rgba(0, 0, 0, 0.027);
+    padding: 20px;
+    border-radius: 4px;
+}
+.box2{
+    margin: 30px;
+    font-size: 29px;
+    background-color: rgba(228, 103, 103, 0.575);
+    padding: 20px;
+    border: 2px solid tomato;
+    border-radius: 4px;
+}
+hr{
+    width: 50%;
+}
+/* end */
+.plan-title{
+    text-align: center;
+    margin-top: 100px;
+}
+.family{
+    display: flex;
+    width: 0px 50px;
+    height: 300px;
+    margin-top: 50px;
+}
+.family-1{
+    border-radius: 5px;
+   padding: 30px 20px;
+    width: 360px;
+    background: rgba(79, 157, 166, 0.1);
+    margin: 0 15px;
+    font-size: 16px;
+}
+.family-2{
+    border-radius: 5px;
+    padding: 30px 20px;
+    width: 360px;
+    background: rgba(255, 89, 89, 0.1);
+    margin: 0 15px;
+    font-size: 16px;
+}
+.family-3{
+    border-radius: 5px;
+    padding: 30px 20px;
+    width: 360px;
+    background: rgba(158, 126, 21, 0.486);
+    margin: 0 15px;
+    font-size: 16px;
+}
+/* plan end */
+
+.donetion{
+    display: flex;
+    margin-top: 130px;
+}
+.donetion-left{
+  margin-left: 100px;
+  align-items: center;
+  margin-top: 40px;
+  margin-right: 70px;
+}
+.donetion-right{
+    width: 200px;
+    height: 477px;
+   margin-right: 60px;
+}
+/* donetion-end */
+.donetion-2{
+    display: flex;
+}
+.left{
+  
+}
+.right{
+    margin-left: 80px;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+.rubel-img{
+   width: 430px;
+   height: 400px;
+   margin-left: 70px;
+}
+/* end */
+.updated{
+   text-align: center;
+   margin-top: 130px;
+}
+.updated-down{
+    width: 809px;
+    height: 200px; 
+    background: #FFF4D6;
+  margin: auto;
+  margin-top: 50px;
+  
+}
+.text{
+    padding-top: 75px;
+    align-items: center;
+  justify-content: center;
+margin: auto;
+margin-bottom: 70px;
+}
+/* end */
+.footer{
+    width: 100%;
+    height: 200px;
+    background: #0B0D17;
+    text-align: center;
+    align-items: center;
+}
+ .heding{
+    font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+color: #FF5959;
+padding-top: 50px;
+}
+.footer-title{
+    color: #D9DBE1; 
+}
+small{
+    padding-top: 25px;
 }
