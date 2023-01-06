@@ -1,3 +1,4 @@
+
 *{
     /* margin: 0; */
     font-family: 'Inter';
@@ -31,4 +32,7 @@
     background-color: #ff5959;
     border-radius: 5px;
     border: none;
+}
+span{
+    font-size: 20px;
 }
